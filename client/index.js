@@ -1,10 +1,14 @@
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
+import NavBar from './components/navbar';
+
 
 class Main extends React.Component {
   render () {
     return (
-      <h1> HipCat UrbanLiving!</h1>
+      <div>
+        <NavBar />
+      </div>
     )
   }
 }
