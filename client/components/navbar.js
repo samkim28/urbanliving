@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 
@@ -20,7 +20,7 @@ class NavBar extends Component {
               {/* <li className="navbar-right signout-button"><SignOut /></li> */}
             </ul>
           </div>
-          <h1 className='text-left'>hip cat</h1>
+          <h1 className='text-center'>hip cat</h1>
         </nav>
     );
   }
