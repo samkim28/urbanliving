@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import NavBar from './components/navbar';
 import ProductList from './components/product-list';
 
-
 class Main extends Component {
   render () {
     return (
